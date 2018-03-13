@@ -2,7 +2,7 @@ package linkedLists;
 
 import java.util.NoSuchElementException;
 
-public interface LinkedList<E> {
+public interface LinkedList<E> extends Cloneable {
 	
 	/**
 	 * Determines the number of nodes currently in the linked list. 
